@@ -6,8 +6,12 @@
 	<artifactId>JenkinsProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+<properties>
+    <surefire.reportFormat>html</surefire.reportFormat>
+</properties>
 
 	<dependencies>
+	
 		<!-- Selenium -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
