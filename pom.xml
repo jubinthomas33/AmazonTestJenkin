@@ -6,12 +6,28 @@
 	<artifactId>JenkinsProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-<properties>
-    <surefire.reportFormat>html</surefire.reportFormat>
-</properties>
+	<properties>
+		<surefire.reportFormat>html</surefire.reportFormat>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M7</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 	<dependencies>
-	
+
 		<!-- Selenium -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>

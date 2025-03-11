@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-11T05:58:03 IST" name="Amazon Test Suite" finished-at="2025-03-11T05:58:16 IST" duration-ms="12713">
+  <suite started-at="2025-03-11T07:10:09 IST" name="Amazon Test Suite" finished-at="2025-03-11T07:10:28 IST" duration-ms="19397">
     <groups>
     </groups>
-    <test started-at="2025-03-11T05:58:03 IST" name="Chrome Test" finished-at="2025-03-11T05:58:14 IST" duration-ms="10706">
+    <test started-at="2025-03-11T07:10:09 IST" name="Chrome Test" finished-at="2025-03-11T07:10:19 IST" duration-ms="9867">
       <class name="AmazonTestJenkins">
-        <test-method signature="testAmazon(java.lang.String)[pri:0, instance:AmazonTestJenkins@30c15d8b]" started-at="2025-03-11T05:58:03 IST" name="testAmazon" finished-at="2025-03-11T05:58:13 IST" duration-ms="10399" status="PASS">
+        <test-method signature="testAmazon(java.lang.String)[pri:0, instance:AmazonTestJenkins@30c15d8b]" started-at="2025-03-11T07:10:09 IST" name="testAmazon" finished-at="2025-03-11T07:10:18 IST" duration-ms="9441" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAmazon -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AmazonTestJenkins@30c15d8b]" started-at="2025-03-11T05:58:13 IST" name="tearDown" finished-at="2025-03-11T05:58:14 IST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AmazonTestJenkins@30c15d8b]" started-at="2025-03-11T07:10:18 IST" name="tearDown" finished-at="2025-03-11T07:10:19 IST" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- AmazonTestJenkins -->
     </test> <!-- Chrome Test -->
-    <test started-at="2025-03-11T05:58:03 IST" name="Edge Test" finished-at="2025-03-11T05:58:15 IST" duration-ms="12059">
+    <test started-at="2025-03-11T07:10:09 IST" name="Edge Test" finished-at="2025-03-11T07:10:25 IST" duration-ms="16040">
       <class name="AmazonTestJenkins">
-        <test-method signature="testAmazon(java.lang.String)[pri:0, instance:AmazonTestJenkins@2362f559]" started-at="2025-03-11T05:58:03 IST" name="testAmazon" finished-at="2025-03-11T05:58:15 IST" duration-ms="11789" status="PASS">
+        <test-method signature="testAmazon(java.lang.String)[pri:0, instance:AmazonTestJenkins@2362f559]" started-at="2025-03-11T07:10:09 IST" name="testAmazon" finished-at="2025-03-11T07:10:25 IST" duration-ms="15504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAmazon -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AmazonTestJenkins@2362f559]" started-at="2025-03-11T05:58:15 IST" name="tearDown" finished-at="2025-03-11T05:58:15 IST" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AmazonTestJenkins@2362f559]" started-at="2025-03-11T07:10:25 IST" name="tearDown" finished-at="2025-03-11T07:10:25 IST" duration-ms="469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- AmazonTestJenkins -->
     </test> <!-- Edge Test -->
-    <test started-at="2025-03-11T05:58:03 IST" name="Firefox Test" finished-at="2025-03-11T05:58:16 IST" duration-ms="12713">
+    <test started-at="2025-03-11T07:10:09 IST" name="Firefox Test" finished-at="2025-03-11T07:10:28 IST" duration-ms="19397">
       <class name="AmazonTestJenkins">
-        <test-method signature="testAmazon(java.lang.String)[pri:0, instance:AmazonTestJenkins@7817fd62]" started-at="2025-03-11T05:58:03 IST" name="testAmazon" finished-at="2025-03-11T05:58:13 IST" duration-ms="10216" status="PASS">
+        <test-method signature="testAmazon(java.lang.String)[pri:0, instance:AmazonTestJenkins@7817fd62]" started-at="2025-03-11T07:10:09 IST" name="testAmazon" finished-at="2025-03-11T07:10:25 IST" duration-ms="15898" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAmazon -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AmazonTestJenkins@7817fd62]" started-at="2025-03-11T05:58:13 IST" name="tearDown" finished-at="2025-03-11T05:58:16 IST" duration-ms="2420" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AmazonTestJenkins@7817fd62]" started-at="2025-03-11T07:10:25 IST" name="tearDown" finished-at="2025-03-11T07:10:28 IST" duration-ms="3431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
