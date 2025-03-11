@@ -31,6 +31,7 @@ public class AmazonTestJenkins {
 		// Open Amazon
 		driver.get("https://www.amazon.com");
 		System.out.println("Page title is: " + driver.getTitle());
+		System.out.println("Sucessfully navigated to the url");
 
 	}
 
